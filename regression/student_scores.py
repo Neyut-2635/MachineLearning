@@ -6,7 +6,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.linear_model import LinearRegression
 
-# from ydata_profiling import ydata_profiling
+# from ydata_profiling import ProfileReport
 
 data = pd.read_csv("../datasets/StudentScore.xls")
 # profile = ProfileReport(data, title="Student Score", explorative=True)
